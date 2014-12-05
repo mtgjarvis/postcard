@@ -61,6 +61,15 @@
                                     <rect key="frame" x="11" y="285" width="294" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvq-Bx-247">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="148" width="42" height="23"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="npZ-Cq-YTG"/>
                                 <exclude reference="8EE-5G-SAR"/>
                                 <exclude reference="Yh4-Uw-69q"/>
+                                <exclude reference="Nvq-Bx-247"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="npZ-Cq-YTG"/>
                                 <include reference="8EE-5G-SAR"/>
                                 <include reference="Yh4-Uw-69q"/>
+                                <include reference="Nvq-Bx-247"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="KLA-eW-BeI" id="nyu-ge-12y"/>
                         <outlet property="mailButton" destination="npZ-Cq-YTG" id="TqP-f9-oLd"/>
                         <outlet property="messageLabel" destination="8EE-5G-SAR" id="EXE-q6-abg"/>
+                        <outlet property="nameLabel" destination="Nvq-Bx-247" id="5qo-Pd-GoL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
